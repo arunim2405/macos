@@ -1,0 +1,186 @@
+
+Firmware Boot Manager
+---------------------
+identifier              {fwbootmgr}
+displayorder            {e7c27cb2-b37f-11e5-b572-806e6f6e6963}
+                        {e7c27cb5-b37f-11e5-b572-806e6f6e6963}
+                        {e7c27cb3-b37f-11e5-b572-806e6f6e6963}
+                        {e7c27cb6-b37f-11e5-b572-806e6f6e6963}
+                        {fde28a18-149e-11e7-973f-806e6f6e6963}
+                        {e7c27cb4-b37f-11e5-b572-806e6f6e6963}
+                        {fde28a15-149e-11e7-973f-806e6f6e6963}
+                        {fde28a16-149e-11e7-973f-806e6f6e6963}
+                        {fde28a17-149e-11e7-973f-806e6f6e6963}
+                        {fde28a14-149e-11e7-973f-806e6f6e6963}
+timeout                 0
+
+Windows Boot Manager
+--------------------
+identifier              {bootmgr}
+device                  unknown
+path                    \EFI\Microsoft\Boot\bootmgfw.efi
+description             Windows Boot Manager
+locale                  en-us
+inherit                 {globalsettings}
+default                 {default}
+resumeobject            {dba2603d-b33c-11e5-b56f-1c6f65f95b5c}
+displayorder            {default}
+toolsdisplayorder       {memdiag}
+timeout                 30
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {e7c27cb2-b37f-11e5-b572-806e6f6e6963}
+path                    \EFI\CLOVER\CLOVERX64.EFI
+description             KingstonDataTraveler 2.0PMAP
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {e7c27cb3-b37f-11e5-b572-806e6f6e6963}
+path                    \EFI\CLOVER\CLOVERX64.EFI
+description             Realtek PXE B07 D00
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {e7c27cb4-b37f-11e5-b572-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\CLOVER\CLOVERX64.EFI
+description             Clover start boot.efi at Sierra
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {e7c27cb5-b37f-11e5-b572-806e6f6e6963}
+path                    \EFI\CLOVER\CLOVERX64.EFI
+description             P0: WDC WD10JPVX-75JC3T0      
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {e7c27cb6-b37f-11e5-b572-806e6f6e6963}
+path                    \EFI\CLOVER\CLOVERX64.EFI
+description             P1: MATSHITA DVD+/-RW UJ8E2   
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a14-149e-11e7-973f-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume1
+path                    \EFI\BOOT\BOOTX64.EFI
+description             UEFI OS
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a15-149e-11e7-973f-806e6f6e6963}
+description             UEFI: IP4 Realtek PCIe FE Family Controller
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a16-149e-11e7-973f-806e6f6e6963}
+description             UEFI: IP6 Realtek PCIe FE Family Controller
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a17-149e-11e7-973f-806e6f6e6963}
+device                  partition=\Device\HarddiskVolume8
+description             
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a18-149e-11e7-973f-806e6f6e6963}
+device                  partition=E:
+description             UEFI: KingstonDataTraveler 2.0PMAP
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a19-149e-11e7-973f-806e6f6e6963}
+description             CD/DVD Drive 
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a1a-149e-11e7-973f-806e6f6e6963}
+description             Hard Drive 
+
+Firmware Application (101fffff)
+-------------------------------
+identifier              {fde28a1b-149e-11e7-973f-806e6f6e6963}
+description             Network Card 
+
+Windows Boot Loader
+-------------------
+identifier              {default}
+device                  unknown
+path                    \Windows\system32\winload.efi
+description             Windows 10
+locale                  en-us
+inherit                 {bootloadersettings}
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                unknown
+systemroot              \Windows
+resumeobject            {dba2603d-b33c-11e5-b56f-1c6f65f95b5c}
+nx                      OptIn
+bootmenupolicy          Standard
+
+Resume from Hibernate
+---------------------
+identifier              {dba2603d-b33c-11e5-b56f-1c6f65f95b5c}
+device                  unknown
+path                    \Windows\system32\winresume.efi
+description             Windows Resume Application
+locale                  en-us
+inherit                 {resumeloadersettings}
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+filedevice              unknown
+filepath                \hiberfil.sys
+bootmenupolicy          Standard
+debugoptionenabled      No
+
+Windows Memory Tester
+---------------------
+identifier              {memdiag}
+device                  unknown
+path                    \EFI\Microsoft\Boot\memtest.efi
+description             Windows Memory Diagnostic
+locale                  en-us
+inherit                 {globalsettings}
+badmemoryaccess         Yes
+
+EMS Settings
+------------
+identifier              {emssettings}
+bootems                 No
+
+Debugger Settings
+-----------------
+identifier              {dbgsettings}
+debugtype               Serial
+debugport               1
+baudrate                115200
+
+RAM Defects
+-----------
+identifier              {badmemory}
+
+Global Settings
+---------------
+identifier              {globalsettings}
+inherit                 {dbgsettings}
+                        {emssettings}
+                        {badmemory}
+
+Boot Loader Settings
+--------------------
+identifier              {bootloadersettings}
+inherit                 {globalsettings}
+                        {hypervisorsettings}
+
+Hypervisor Settings
+-------------------
+identifier              {hypervisorsettings}
+hypervisordebugtype     Serial
+hypervisordebugport     1
+hypervisorbaudrate      115200
+
+Resume Loader Settings
+----------------------
+identifier              {resumeloadersettings}
+inherit                 {globalsettings}

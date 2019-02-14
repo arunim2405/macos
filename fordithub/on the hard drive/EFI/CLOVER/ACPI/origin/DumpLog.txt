@@ -1,0 +1,92 @@
+4:608  0:186  Found UEFI Acpi 2.0 RSDP at DADFD000
+4:608  0:000  Saving ACPI tables from RSDP DADFD000 to EFI\CLOVER\ACPI\origin ...
+4:608  0:000   DADFD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:608  0:000    (Xsdt: DADFD090, Rsdt: DADFD028)
+4:608  0:000    DADFD090: 'XSDT', 'WN09', Rev: 1, Len: 164
+4:608  0:000    DADFD028: 'RSDT', 'WN09', Rev: 1, Len: 100
+4:608  0:000    Tables in Xsdt: 16
+4:608  0:000    0. DAE0D308: 'FACP', 'WN09', Rev: 5, Len: 268
+4:608  0:000        (Dsdt: DADFD1C8, Facs: DB6EC080, XDsdt: DADFD1C8, XFacs: 0)
+4:608  0:000        DADFD1C8: 'DSDT', 'WN09', Rev: 2, Len: 65851
+4:609  0:001        DB6EC080: 'FACS', Ver: 2, Len: 64
+4:609  0:000    1. DAE0D418: 'APIC', 'WN09', Rev: 3, Len: 114
+4:609  0:000    2. DAE0D490: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:609  0:000    3. DAE0D4D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:609  0:000    4. DAE0D580: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:609  0:000    5. DAE0D5E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:609  0:000    6. DAE0D808: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:609  0:000    7. DAE0D980: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:609  0:000    8. DAE0DE18: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:609  0:000    9. DAE0E8F0: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:609  0:000    10. DAE0E930: 'HPET', 'WN09', Rev: 1, Len: 56
+4:609  0:000    11. DAE0E968: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:609  0:000    12. DAE0EC80: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:609  0:000    13. DAE121E0: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:609  0:000    14. DAE12238: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:609  0:000    15. DAE12270: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:609  0:000    Tables in Rsdt: 16
+4:609  0:000    0. DADFD140: 'FACP', 'WN09', Rev: 2, Len: 132
+4:609  0:000        (Dsdt: DADFD1C8, Facs: DB6EC040)
+4:609  0:000        DADFD1C8: 'DSDT', 'WN09', Rev: 2, Len: 65851
+4:611  0:001        DB6EC040: 'FACS', Ver: 0, Len: 64
+4:611  0:000    1. DAE0D418: 'APIC', 'WN09', Rev: 3, Len: 114
+4:611  0:000    2. DAE0D490: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:611  0:000    3. DAE0D4D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:611  0:000    4. DAE0D580: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:611  0:000    5. DAE0D5E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:611  0:000    6. DAE0D808: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:611  0:000    7. DAE0D980: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:611  0:000    8. DAE0DE18: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:611  0:000    9. DAE0E8F0: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:611  0:000    10. DAE0E930: 'HPET', 'WN09', Rev: 1, Len: 56
+4:611  0:000    11. DAE0E968: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:611  0:000    12. DAE0EC80: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:611  0:000    13. DAE121E0: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:611  0:000    14. DAE12238: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:611  0:000    15. DAE12270: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:611  0:000  Found UEFI Acpi 1.0 RSDP at DADFD000
+4:611  0:000  Printing ACPI tables from RSDP DADFD000 ...
+4:611  0:000   DADFD000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:611  0:000    (Xsdt: DADFD090, Rsdt: DADFD028)
+4:611  0:000    DADFD090: 'XSDT', 'WN09', Rev: 1, Len: 164
+4:611  0:000    DADFD028: 'RSDT', 'WN09', Rev: 1, Len: 100
+4:611  0:000    Tables in Xsdt: 16
+4:611  0:000    0. DAE0D308: 'FACP', 'WN09', Rev: 5, Len: 268
+4:611  0:000        (Dsdt: DADFD1C8, Facs: DB6EC080, XDsdt: DADFD1C8, XFacs: 0)
+4:611  0:000        DADFD1C8: 'DSDT', 'WN09', Rev: 2, Len: 65851
+4:612  0:001        DB6EC080: 'FACS', Ver: 2, Len: 64
+4:612  0:000    1. DAE0D418: 'APIC', 'WN09', Rev: 3, Len: 114
+4:612  0:000    2. DAE0D490: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:612  0:000    3. DAE0D4D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:612  0:000    4. DAE0D580: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:612  0:000    5. DAE0D5E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:612  0:000    6. DAE0D808: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:612  0:000    7. DAE0D980: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:612  0:000    8. DAE0DE18: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:612  0:000    9. DAE0E8F0: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:612  0:000    10. DAE0E930: 'HPET', 'WN09', Rev: 1, Len: 56
+4:612  0:000    11. DAE0E968: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:612  0:000    12. DAE0EC80: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:612  0:000    13. DAE121E0: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:612  0:000    14. DAE12238: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:612  0:000    15. DAE12270: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196
+4:612  0:000    Tables in Rsdt: 16
+4:612  0:000    0. DADFD140: 'FACP', 'WN09', Rev: 2, Len: 132
+4:612  0:000        (Dsdt: DADFD1C8, Facs: DB6EC040)
+4:612  0:000        DADFD1C8: 'DSDT', 'WN09', Rev: 2, Len: 65851
+4:614  0:001        DB6EC040: 'FACS', Ver: 0, Len: 64
+4:614  0:000    1. DAE0D418: 'APIC', 'WN09', Rev: 3, Len: 114
+4:614  0:000    2. DAE0D490: 'FPDT', 'WN09', Rev: 1, Len: 68
+4:614  0:000    3. DAE0D4D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:614  0:000    4. DAE0D580: 'LPIT', 'WN09', Rev: 1, Len: 92
+4:614  0:000    5. DAE0D5E0: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:614  0:000    6. DAE0D808: 'SLIC', 'WN09', Rev: 1, Len: 374
+4:614  0:000    7. DAE0D980: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1172
+4:614  0:000    8. DAE0DE18: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:614  0:000    9. DAE0E8F0: 'MCFG', 'WN09', Rev: 1, Len: 60
+4:614  0:000    10. DAE0E930: 'HPET', 'WN09', Rev: 1, Len: 56
+4:614  0:000    11. DAE0E968: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+4:614  0:000    12. DAE0EC80: 'SSDT', 'SaSsdt', Rev: 1, Len: 13662
+4:614  0:000    13. DAE121E0: 'MSDM', 'WN09', Rev: 3, Len: 85
+4:614  0:000    14. DAE12238: 'BGRT', 'WN09', Rev: 0, Len: 56
+4:614  0:000    15. DAE12270: 'CSRT', 'HSWULT-R', Rev: 1, Len: 196

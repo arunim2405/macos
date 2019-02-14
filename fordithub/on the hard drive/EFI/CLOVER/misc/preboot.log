@@ -1,0 +1,259 @@
+0:100  0:100  MemLog inited, TSC freq: 1596303769
+0:100  0:000  
+0:100  0:000  Now is 2.5.2018,  21:37:30 (GMT)
+0:100  0:000  Starting Clover revision: 4220 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12.6 | XCODE: 8.3.3]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,A443F055-6411-42ED-BFE3-00483245A38F,0x800,0xFA000) @CF08C918
+0:100  0:000  SelfDirPath = \EFI\CLOVER
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 2
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = DIMM_B DIMM_B
+0:100  0:000  SmbiosTable.Type17->Vendor = Micron
+0:100  0:000  SmbiosTable.Type17->SerialNumber = E22A335F
+0:100  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E1 
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = DIMM_A DIMM_A
+0:100  0:000  SmbiosTable.Type17->Vendor = Micron
+0:100  0:000  SmbiosTable.Type17->SerialNumber = E22A3360
+0:100  0:000  SmbiosTable.Type17->PartNumber = 8KTF51264HZ-1G6E1 
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'Inspiron 5437' with board '0YWDVN'
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=40651
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000   The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-4200U CPU @ 1.60GHz
+0:100  0:000  MSR 0xE2 before patch 1E008404
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              0008083D_F3011000
+0:100  0:000  MSR 0x1A0             00850089
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 16.0/8
+0:100  0:000  Turbo: 23/23/23/26
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 2
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 1600 MHz
+0:100  0:000  TSC: 1600 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0A04 class=060000
+0:100  0:000  PCI (00|00:02.00) : 8086 0A16 class=030000
+0:100  0:000   - GFX: Model=Intel HD Graphics 4400 (Intel)
+0:100  0:000  PCI (00|00:03.00) : 8086 0A0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 9C31 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 9C3A class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1B.00) : 8086 9C20 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 9C10 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 9C14 class=060400
+0:100  0:000  PCI (00|06:00.00) : 8086 08B1 class=028000
+0:100  0:000   - WIFI: Vendor=Intel
+0:100  0:000  PCI (00|00:1C.03) : 8086 9C16 class=060400
+0:100  0:000  PCI (00|07:00.00) : 10EC 8136 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1D.00) : 8086 9C26 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 9C43 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 9C03 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 9C22 class=0C0500
+0:100  0:000  PCI (00|00:1F.06) : FFFF FFFF class=FFFFFF
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 50 bytes
+0:100  0:000  Clover started with option to boot bootmgfw-orig.efi from EFI
+0:121  0:021  EFI\CLOVER\config.plist loaded: Success
+0:121  0:000  === [ GetListOfThemes ] ===================================
+0:122  0:001  - [00]: EMBEDDED
+0:127  0:004  - [00]: RANDOM
+0:128  0:001  - [00]: YosemiteLogin
+0:149  0:020  - [01]: El Capitan
+0:151  0:002  === [ Found config plists ] ===============================
+0:151  0:000  - config.plist
+0:151  0:000  === [ GetEarlyUserSettings ] ==============================
+0:151  0:000  timeout set to 2
+0:151  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:151  0:000  KextsToPatch: 7 requested
+0:151  0:000   - [00]: IOGraphicsFamily (Fix Boot Glitch) :: BinPatch :: data len: 5
+0:151  0:000   - [01]: AppleIntelFramebufferAzul (Patch HD4400/4600 HDMI Freeze) :: BinPatch :: data len: 12
+0:151  0:000   - [02]: AppleIntelFramebufferAzul (Patch HD4400/4600 9mb Cursor bytes) :: BinPatch :: data len: 20
+0:151  0:000   - [03]: AppleHDA (Zeroing 10ec0261 codec (patched by AppleHDA Patcher.app)) :: BinPatch :: data len: 4
+0:151  0:000   - [04]: AppleHDA (Zeroing 10ec0262 codec (patched by AppleHDA Patcher.app)) :: BinPatch :: data len: 4
+0:151  0:000   - [05]: AppleHDA (Zeroing 10ec0885 codec (patched by AppleHDA Patcher.app)) :: BinPatch :: data len: 4
+0:151  0:000   - [06]: AppleHDA (Patching 11d41984 with 10ec0255 codec (patched by AppleHDA Patcher.app)) :: BinPatch :: data len: 4
+0:151  0:000  Default theme: El Capitan
+0:151  0:000  ** Warning: unknown custom entry Type 'Other'
+0:151  0:000  === [ LoadDrivers ] =======================================
+0:162  0:011  Loading AppleImageCodec-64.efi  status=Success
+0:168  0:005  Loading AppleKeyAggregator-64.efi  status=Success
+0:179  0:010  Loading AppleUITheme-64.efi  status=Success
+0:179  0:000  Loading DataHubDxe-64.efi  status=Success
+0:187  0:007  Loading FirmwareVolume-64.efi  status=Success
+0:187  0:000  Loading FSInject-64.efi  status=Success
+0:188  0:000  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:189  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:189  0:000  Loading SMCHelper-64.efi  status=Success
+0:190  0:000  Loading VBoxHfs-64.efi  status=Success
+0:190  0:000   - driver needs connecting
+0:190  0:000  1 drivers needs connecting ...
+0:190  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:190  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:471  0:280  === [ InitScreen ] ========================================
+0:471  0:000  SetMaxResolution: found best mode 3: 1366x768
+0:471  0:000   - already set
+0:471  0:000  Console modes reported: 5, available modes:
+0:471  0:000   - [01]: 80x25 (current mode)
+0:471  0:000   - [03]: 100x31
+0:471  0:000   - [04]: 80x25
+0:471  0:000   - [05]: 170x40
+0:471  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,A443F055-6411-42ED-BFE3-00483245A38F,0x800,0xFA000)
+0:471  0:000  Using embedded font: Success
+0:472  0:001  === [ GetMacAddress ] =====================================
+0:472  0:000  MAC address of LAN #0= E0:DB:55:BB:0A:CE:
+0:472  0:000  MAC address of LAN #1= E0:DB:55:BB:0A:CE:
+0:472  0:000  MAC address of LAN #2= E0:DB:55:BB:0A:CE:
+0:472  0:000  MAC address of LAN #3= E0:DB:55:BB:0A:CE:
+0:472  0:000  === [ ScanSPD ] ===========================================
+0:472  0:000  SMBus device : 8086 9C22 class=0C0500 status=Success
+0:472  0:000  SMBus CmdReg: 0x3
+0:472  0:000  Scanning SMBus [8086:9C22], mmio: 0xF7E19004, ioport: 0xF040, hostc: 0x11
+0:472  0:000  Slots to scan [8]...
+0:473  0:000  SPD[0]: Type 11 @0x50
+0:491  0:018  Not using XMP because it is not present
+0:491  0:000  DDR speed 1600MHz
+0:491  0:000  Slot: 0 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E1E1 SerialNo=0E02020A03030600
+0:492  0:000  SPD[2]: Type 11 @0x52
+0:510  0:018  Not using XMP because it is not present
+0:510  0:000  DDR speed 1600MHz
+0:510  0:000  Slot: 2 Type 24 4096MB 1600MHz Vendor=Micron Technology PartNo=8KTF51264HZ-1G6E1E1 SerialNo=0E02020A0303050F
+0:511  0:000  === [ GetAcpiTablesList ] =================================
+0:511  0:000  Get Acpi Tables List from RSDT:
+0:511  0:000   - [00]: FACP  WN09 len=132
+0:511  0:000   - [01]: APIC  WN09 len=114
+0:511  0:000   - [02]: FPDT  WN09 len=68
+0:511  0:000   - [03]: ASF!   HCG len=165
+0:511  0:000   - [04]: LPIT  WN09 len=92
+0:511  0:000   - [05]: SSDT  sensrhub len=552
+0:511  0:000   - [06]: SLIC  WN09    len=374
+0:511  0:000   - [07]: SSDT  Cpu0Ist len=1172
+0:511  0:000   - [08]: SSDT  CpuPm len=2776
+0:511  0:000   - [09]: MCFG  WN09 len=60
+0:511  0:000   - [10]: HPET  WN09 len=56
+0:511  0:000   - [11]: SSDT  SataTabl len=789
+0:511  0:000   - [12]: SSDT  SaSsdt  len=13662
+0:511  0:000   - [13]: MSDM  WN09    len=85
+0:511  0:000   - [14]: BGRT  WN09 len=56
+0:511  0:000   - [15]: CSRT  HSWULT-R len=196
+0:511  0:000  Calibrated TSC Frequency = 1596303769 = 1596MHz
+0:511  0:000  === [ GetUserSettings ] ===================================
+0:511  0:000  USB FixOwnership: yes
+0:511  0:000  Dropping 1 tables:
+0:511  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+0:511  0:000           - set table: 52414D44,                0 to drop: no
+0:511  0:000   - final DSDT Fix mask=00000000
+0:511  0:000  Using ProductName from config
+0:511  0:000  ProductName: MacBookPro11,2
+0:511  0:000  Using latest BiosVersion from clover
+0:511  0:000  BiosVersion: MBP112.88Z.0142.B00.1708080655
+0:511  0:000  BiosReleaseDate: 08/08/2017
+0:511  0:000  Using FirmwareFeatures from clover
+0:511  0:000  FirmwareFeatures: 0xE80FE137
+0:511  0:000  Using FirmwareFeaturesMask from clover
+0:511  0:000  FirmwareFeaturesMask: 0xFF1FFF3F
+0:511  0:000  Using PlatformFeature from clover
+0:511  0:000  PlatformFeature: 0x2
+0:511  0:000  Board-ID set from config as Mac-3CBD00234E554E41
+0:511  0:000  BoardType: 0xA
+0:511  0:000  ChassisType: 0x8
+0:540  0:028  === [ ScanVolumes ] =======================================
+0:540  0:000  Found 14 volumes with blockIO
+0:540  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+0:551  0:011          Result of bootcode detection: bootable unknown (legacy)
+0:551  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)
+0:551  0:000          Found optical drive
+0:551  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,A443F055-6411-42ED-BFE3-00483245A38F,0x800,0xFA000)
+0:559  0:008          Result of bootcode detection: bootable unknown (legacy)
+0:563  0:003          This is SelfVolume !!
+0:563  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,C9C78B2E-6DA3-4092-A249-B9522E32B89E,0xFA800,0x14000)
+0:575  0:012          Result of bootcode detection: bootable Windows (vista,win)
+0:591  0:016  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,9814DD0A-68A4-43CE-8022-FCF40753D9E0,0x10E800,0x40000)
+0:598  0:006  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,320E9E07-B3C4-460B-A916-4C6A7C49ED8F,0x14E800,0xF5000)
+0:611  0:013          Result of bootcode detection: bootable Windows (vista,win)
+0:627  0:016  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(5,GPT,890CEB45-69A8-42CC-B31B-85A25BE8E943,0x243800,0x4EACC70D)
+0:634  0:006          Result of bootcode detection: bootable Windows (vista,win)
+0:930  0:296  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(6,GPT,F2A1C9F7-67D1-408C-8AAC-5C7BEFE9F505,0x4ED10000,0xE9800)
+0:954  0:023          Result of bootcode detection: bootable Windows (vista,win)
+0:969  0:015  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(7,GPT,9B275E28-14C9-4050-95A7-DA85A2FA0617,0x4EDF9800,0xCAD8000)
+0:974  0:005          Result of bootcode detection: bootable Windows (vista,win)
+1:078  0:103  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(8,GPT,7DFE7EB0-935A-01D2-583B-4C30AD49E900,0x5DFE1800,0x9477800)
+1:095  0:017  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(9,GPT,8A8FF30C-E230-4B05-B70A-69EF1503677C,0x67499000,0xC21A8E0)
+1:108  0:013  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(10,GPT,9F22A2A7-92E1-4D6A-8899-5FB7274F8334,0x736B38E0,0x135F20)
+1:118  0:010  - [12]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(11,GPT,35A1E513-977A-4693-ABD3-362832C50532,0x737E9800,0xF1CDB0)
+1:125  0:006          Result of bootcode detection: bootable Windows (vista,win)
+1:142  0:017  - [13]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(12,GPT,0FC9CE86-4F3D-491E-B2B3-3093DCD93E29,0x5B8D1800,0x2710000)
+1:155  0:013  === [ InitTheme ] =========================================
+1:155  0:000   using embedded theme
+1:156  0:000  Using embedded font: Success
+1:156  0:000  Choosing theme <null string>
+1:156  0:000  after NVRAM boot-args=slide=0 darkwake=0 kext-dev-mode=1 rootless=0
+1:156  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+1:156  0:000  found AppleSMC protocol
+1:168  0:011  === [ AddCustomEntries ] ==================================
+1:168  0:000  Custom entry 0 skipped because it is disabled.
+1:168  0:000  === [ ScanLoader ] ========================================
+1:168  0:000  - [02]: 'EFI'
+1:195  0:026          AddLoaderEntry for Volume Name=EFI
+1:195  0:000      Not match custom entry 0: Type: not match
+1:195  0:000  Icon 18 decoded, pointer CEB61118
+1:195  0:000          AddLoaderEntry for Volume Name=EFI
+1:195  0:000      Not match custom entry 0: Type: not match
+1:213  0:017  - [03]: 'DIAGS'
+1:213  0:000  - [05]: 'WINRETOOLS'
+1:213  0:000  - [06]: 'OS'
+1:213  0:000  - [07]: ''
+1:213  0:000  - [08]: 'New Volume'
+1:213  0:000  - [09]: 'Sierra'
+1:298  0:084          AddLoaderEntry for Volume Name=Sierra
+1:298  0:000      Not match custom entry 0: Type: not match
+1:313  0:015      Check if volume Is Hibernated:
+1:313  0:000      Check sleep image 'by signature':
+1:382  0:069      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+1:382  0:000      using default sleep image name = \private\var\vm\sleepimage
+1:433  0:050      got sleep image offset
+1:433  0:000       sleepimage offset acquired successfully: BFBC38F000
+1:433  0:000       gSleepTime: 1497801681
+1:438  0:005       HFS+ volume modifyDate: 1525080137
+1:438  0:000       image older then volume: 27278456 sec
+1:438  0:000       image too old
+1:438  0:000      hibernated: no - time
+1:439  0:000  Icon 17 decoded, pointer CEA9EA18
+1:439  0:000  - [10]: 'For Downloads'
+1:458  0:019  - [11]: 'Recovery HD'
+1:477  0:019          AddLoaderEntry for Volume Name=Recovery HD
+1:477  0:000      Not match custom entry 0: Type: not match
+1:482  0:004  Icon 20 decoded, pointer CEA9E318
+1:482  0:000  - [12]: 'PBR Image'
+1:482  0:000  === [ AddCustomTool ] =====================================
+1:482  0:000  Icon 8 decoded, pointer CEA9E218
+1:524  0:042  found tool \EFI\CLOVER\tools\Shell64U.efi
+1:524  0:000  Checking EFI partition Volume 2 for Clover
+1:524  0:000   Found Clover
+1:524  0:000  Icon 2 decoded, pointer CE9E9F18
+1:524  0:000  Icon 1 decoded, pointer CE9E9818
+1:524  0:000  Icon 0 decoded, pointer CE9E9798
+1:524  0:000  Icon 5 decoded, pointer CE9E9718
+1:524  0:000  Icon 6 decoded, pointer CEB57998
+1:525  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+1:525  0:000   - found entry 0. 'Boot Microsoft EFI from EFI', Volume 'EFI', DevicePath 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,A443F055-6411-42ED-BFE3-00483245A38F,0x800,0xFA000)\EFI\microsoft\Boot\bootmgfw-orig.efii'
+1:525  0:000  DefaultIndex=0 and MainMenu.EntryCount=10
+1:525  0:000  Icon 21 decoded, pointer CE9E9618
+1:572  0:046  Icon 22 decoded, pointer CE9E9498
+1:572  0:000  Icon 23 decoded, pointer CE9E9418
+2:084  0:511  GUI ready

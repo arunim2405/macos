@@ -1,0 +1,56 @@
+
+Clover EFI installer log - Fri Oct 19 12:20:58 IST 2018
+Installer version: v2.4k r4701.RM-4963.ca6cca7c EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS                         119.8 GB   disk0s2
+
+/dev/disk0s2s1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+
+/dev/disk0s2s2 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+
+/dev/disk0s2s3 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+
+/dev/disk0s2s4 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:                        EFI EFI                     524.3 MB   disk1s1
+   2: 796BADD3-6BBF-4D9F-B631-466EB71A4965               41.9 MB    disk1s2
+   3:         Microsoft Reserved                         134.2 MB   disk1s3
+   4:           Windows Recovery                         513.8 MB   disk1s4
+   5:       Microsoft Basic Data OS                      612.3 GB   disk1s5
+   6:           Windows Recovery                         489.7 MB   disk1s6
+   7:       Microsoft Basic Data New Volume              108.9 GB   disk1s7
+   8:           Linux Filesystem                         21.0 GB    disk1s8
+   9:                  Apple_HFS Sierra                  79.7 GB    disk1s9
+  10:       Microsoft Basic Data                         104.9 MB   disk1s10
+  11:                  Apple_HFS For Downloads           104.2 GB   disk1s11
+  12:                 Apple_Boot Recovery HD             650.0 MB   disk1s12
+  13:           Windows Recovery                         8.1 GB     disk1s13
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.7 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS macOS High Sierra 10... 15.3 GB    disk2s2
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/macOS High Sierra 10.13 Install - 10.13.6
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/macOS High Sierra 10.13 Install - 10.13.6
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

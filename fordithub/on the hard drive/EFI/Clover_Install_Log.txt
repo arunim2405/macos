@@ -1,0 +1,58 @@
+
+Clover EFI installer log - Thu Feb 14 23:07:06 IST 2019
+Installer version: v2.4k r4871 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk0
+   1:           Windows Recovery                         523.2 MB   disk0s1
+   2:                        EFI NO NAME                 104.9 MB   disk0s2
+   3:         Microsoft Reserved                         16.8 MB    disk0s3
+   4:       Microsoft Basic Data                         119.4 GB   disk0s4
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk1
+   1:                        EFI EFI                     524.3 MB   disk1s1
+   2: 796BADD3-6BBF-4D9F-B631-466EB71A4965               41.9 MB    disk1s2
+   3:         Microsoft Reserved                         134.2 MB   disk1s3
+   4:           Windows Recovery                         513.8 MB   disk1s4
+   5:       Microsoft Basic Data OS                      612.3 GB   disk1s5
+   6:           Windows Recovery                         523.2 MB   disk1s6
+   7:                        EFI NO NAME                 104.9 MB   disk1s7
+   8:           Windows Recovery                         523.2 MB   disk1s8
+   9:                        EFI NO NAME                 104.9 MB   disk1s9
+  10:           Windows Recovery                         523.2 MB   disk1s10
+  11:                        EFI NO NAME                 104.9 MB   disk1s11
+  12:           Windows Recovery                         523.2 MB   disk1s12
+  13:                        EFI NO NAME                 104.9 MB   disk1s13
+  14:           Windows Recovery                         523.2 MB   disk1s14
+  15:                        EFI NO NAME                 104.9 MB   disk1s15
+  16:           Windows Recovery                         489.7 MB   disk1s16
+  17:       Microsoft Basic Data New Volume              108.9 GB   disk1s17
+  18:           Linux Filesystem                         21.0 GB    disk1s18
+  19:                  Apple_HFS Sierra                  79.7 GB    disk1s19
+  20:       Microsoft Basic Data                         104.9 MB   disk1s20
+  21:                  Apple_HFS For Downloads           104.2 GB   disk1s21
+  22:                 Apple_Boot Recovery HD             650.0 MB   disk1s22
+  23:           Windows Recovery                         8.1 GB     disk1s23
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.7 GB    disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS macOS High Sierra 10... 15.3 GB    disk2s2
+
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            macOS Mojave Patcher   +409.6 MB   disk3
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
